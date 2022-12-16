@@ -1,0 +1,24 @@
+  GNU nano 6.4                      leapyear.sh
+#!/bin/bash -x
+
+clear
+read year
+echo "Enter a year:"
+
+if[`expr $year %4'-eq 0];then
+echo "$year is leap year"
+else
+echo "$year is not a leap year"
+fi
+
+
+
+
+
+
+
+
+
+                               [ Wrote 11 lines ]
+^G Help      ^O Write Out ^W Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^J Justify   ^/ Go To Line
